@@ -1,0 +1,25 @@
+{
+  "name": "trae-personality-system",
+  "version": "1.0.0",
+  "description": "TRAE 13主体多模型协作系统 — PersonalityCore架构 + 12个AI分身封装",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "overview": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "trae",
+    "ai-personality",
+    "multi-model",
+    "orchestration",
+    "agent"
+  ],
+  "author": "qingluan-studio",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}
